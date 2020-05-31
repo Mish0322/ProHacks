@@ -1,0 +1,19 @@
+body {
+  background: rgba(255, 223, 223)
+}
+
+h1 {
+  color: gray;
+  text-align: center;
+}
+h2 {
+  color: gray;
+
+}
+p {
+  color: gray;
+  text-align: center;
+}
+li{
+  color: gray;
+}
