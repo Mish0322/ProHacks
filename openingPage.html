@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link href="openingPage.css" type="text/css" rel="stylesheet">
+  <link href="game.java" type="text/java">
+</head>
+<body>
+  <h1>RememberMe</h1>
+  <h2>For Patients With Dementia</h2>
+  <h3>Help hotline: call 800-272-3900</h3>
+  <p id="greeting" style="font-size: 20px; font-family:'Raleway'; font-size: 22px;; text-align:center; font-weight: bold"></p>
+          <p id="quote" style="font-size: 35px; font-family: font-family:'Raleway'; font-size: 22px;; text-align:center; "></p>
+          <div id="quote">
+              <script>
+                  var today = new Date();
+                  var hr = today.getHours();
+                  if(hr>0 && hr < 20){
+                      document.getElementById("greeting").innerHTML = "Good Morning! Make sure to read our daily tips :)";
+                  }
+                  if(hr>=20 && hr <= 4){
+                      document.getElementById("greeting").innerHTML = "Good Afternoon! Make sure to read our daily tips :)";
+                  }
+                  if(hr>4 && hr <= 7){
+                      document.getElementById("greeting").innerHTML = "Good Evening! Make sure to read our daily tips :)";
+                  }else{
+                      document.getElementById("greeting").innerHTML = "Good Night! Make sure to read our daily tips :)";
+                  }
+                  var text = ["It takes a lot of courage to push through hard times", "Stay Organized", "Ensure the right nutrition", "Recognize triggers for difficult behavior and stay calm", "Use humor to your advantage", "Never giveup. Good things are coming your way"];
+                  var counter = 0;
+                  var elem = document.getElementById("changeText");
+                  document.getElementById("quote").innerHTML = text[counter];
+                  window.setInterval(function() {
+                      counter ++;
+                      if(counter == text.length){
+                          counter = 0;
+                      }
+                      document.getElementById("quote").innerHTML = text[counter];
+                  }, 5000);
+              </script>
+          </div>
+          <form class="checklist" action="/Users/mishabandi/Desktop/RememberMe ProHacks/checklist.html">
+              <input type="submit" value="Add to your to-do list" style="background: #FFFFFF" />
+          </form>
+          <form class="game" action="/Users/mishabandi/Desktop/RememberMe ProHacks/matchGame.html">
+             <input type="submit" value="Play our fun game to strengthen your cognitive ability" style="background: #FFFFFF" />
+          </form>
+          <form class="about" action="/Users/mishabandi/Desktop/RememberMe ProHacks/about.html">
+             <input type="submit" value="Learn more about Dementia" style="background: #FFFFFF" />
+          </form>
+</body>
+</html>

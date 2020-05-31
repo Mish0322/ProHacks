@@ -1,0 +1,32 @@
+body{
+background-color: #FFDFDF;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  color: #FFFFFF;
+  text-shadow: 8px 8px 0px rgba(0,0,0,0.3);
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  color: gray;
+  background-color: #FF8787;
+}
+h2{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20 px;
+  color: gray;
+}
+h3{
+  width: 100%;
+  padding-top:
+  color: gray;
+  background-color: #FF8787;
+  text-align: center;
+}

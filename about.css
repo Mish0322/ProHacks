@@ -1,0 +1,35 @@
+body{
+background-color: #FFDFDF;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  color: #FFFFFF;
+  text-shadow: 8px 8px 0px rgba(0,0,0,0.3);
+}
+
+h2{
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  background-color: #FF8787;
+}
+
+h3{
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
+  background-color: #FF8787;
+}
+
+h4{
+  padding-top: 40px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  background-color: #FF8787;
+}
